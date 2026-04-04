@@ -1,17 +1,12 @@
-body {
-background: red;
-}
-
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px
+  gap: 10px;
 }
 
 
 .gallery img{
-  width: 50px
+  width: 50px;
   height: auto;
   cursor: pointer;
   margin: 5px;
