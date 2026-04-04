@@ -8,7 +8,7 @@ function openmodal(img) {
   modal.style.display = "flex";
 }
 
-funciton closemodal(){
+funciton closemodal() {
   const modal =
 document.getElementById("modal");
   modal.style.display = "none";
