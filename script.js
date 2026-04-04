@@ -1,13 +1,15 @@
 function openmodal(img) {
   const modal =
     document.getElementById("modal");
-  const modalImg =
-    document.getElementById("modalImage");
+  const mainlImg =
+    document.getElementById("mainImage");
 
+  mainImage.src = img.src;
   modal.style.display = "flex";
-  modalImg.src = img.src;
 }
 
 funciton closemodal(){
-document.getElementById("modal").style.display = "none";
+  const modal =
+document.getElementById("modal");
+  modal.style.display = "none";
 }
