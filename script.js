@@ -5,7 +5,7 @@ function openmodal(img) {
     document.getElementById("modalImage");
 
   modal.style.display = "flex";
-  modalImage.src = img.src;
+  modalImg.src = img.src;
 }
 
 funciton closeModal(){
