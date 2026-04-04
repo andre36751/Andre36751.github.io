@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" herf="style.css">
   <meta charset="UTF-8">
   <title>My Photos</title>
 </head>
 
 <body>
 <h1>Photo Gallery</h1>
-
-  <img src="Photos/IMG_4076_1.JPG" width="100%">
-  <br>
+<div class="gallery">
   
+  <img src="Photos/IMG_4076_1.JPG"
+    onclick="openImage(this)">
 
+</div>
+
+  <img id="mainImage" src=""
+    style="display:none;">
+
+  <script src="script.js"></script>
+  
 </body>
 
 </html>
