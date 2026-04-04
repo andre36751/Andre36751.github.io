@@ -8,6 +8,6 @@ function openmodal(img) {
   modalImg.src = img.src;
 }
 
-funciton closeModal(){
+funciton closemodal(){
 document.getElementById("modal").style.display = "none";
 }
