@@ -1,7 +1,7 @@
 function openmodal(img) {
   const modal =
     document.getElementById("modal");
-  const mainlImg =
+  const mainlImage =
     document.getElementById("mainImage");
 
   mainImage.src = img.src;
